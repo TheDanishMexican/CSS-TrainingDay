@@ -12,3 +12,23 @@ section {
 h2 {
   color: pink;
 }
+#about {
+  background-color: blueviolet;
+}
+#boxmodel,
+#units {
+  background-color: antiquewhite;
+}
+
+#fonts {
+  background-color: darkgoldenrod;
+}
+.codebox {
+  background-color: green;
+}
+section.codebox {
+  background-color: teal;
+}
+nav ul {
+  list-style-type: none;
+}

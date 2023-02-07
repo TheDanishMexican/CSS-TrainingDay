@@ -11,19 +11,19 @@
     <header>
       <h1>Velkommen til CSS træningsbanen</h1>
     </header>
-    <nav>
+    <nav id="navigationbar">
       <ul>
-        <li><a href="#">Om CSS</a></li>
-        <li><a href="#">Selektorer</a></li>
-        <li><a href="#">Properties</a></li>
-        <li><a href="#">Box-modellen</a></li>
-        <li><a href="#">Enheder</a></li>
-        <li><a href="#">Fonte og Farver</a></li>
+        <li><a class="nav" href="#about">Om CSS</a></li>
+        <li><a class="nav" href="#selectors">Selektorer</a></li>
+        <li><a class="nav" href="#properties">Properties</a></li>
+        <li><a class="nav" href="#boxmodel">Box-modellen</a></li>
+        <li><a class="nav" href="#units">Enheder</a></li>
+        <li><a class="nav" href="#fonts">Fonte og Farver</a></li>
       </ul>
     </nav>
 
-    <section>
-      <h1>Om CSS</h1>
+    <section id="about">
+      <h1 class="codebox">Om CSS</h1>
       <h2>CSS er en del af den hellige trilogi:</h2>
       <p>
         <img src="images/html_logo.png" alt="HTML shield logo" />
@@ -36,7 +36,7 @@
         hvordan siden skal <i>styles</i>.
       </p>
     </section>
-    <section>
+    <section id="selectors" class="codebox">
       <h1>Selectorer</h1>
       <h2>Nogle af de grundlæggende selectorer i CSS:</h2>
       <dl>
@@ -60,7 +60,7 @@
         <a href="https://flukeout.github.io/" target="_blank">CSS Diner</a>.
       </p>
     </section>
-    <section>
+    <section id="properties" class="codebox">
       <h1>Udvalgte properties</h1>
       <h2>Det her er nogle af de properties vi har set:</h2>
       <ul>
@@ -72,7 +72,7 @@
         <li>box-shadow</li>
       </ul>
     </section>
-    <section>
+    <section id="boxmodel">
       <h1>Box-modellen</h1>
       <h2>
         Alle HTML elementer er "pakket" ind i en boks, med margin, border og
@@ -98,7 +98,7 @@
         egen baggrund.
       </p>
     </section>
-    <section>
+    <section id="units">
       <h1>Enheder</h1>
       <h2>
         Når man skal angive afstande i sit design, kan man bruge flere
@@ -148,7 +148,7 @@
         <a href="https://www.w3schools.com/cssref/css_units.php">w3schools</a>.
       </p>
     </section>
-    <section>
+    <section id="fonts">
       <h1>Fonte og Farver</h1>
       <h2>
         Når vi taler om styling er farver og skrifttyper noget af det vigtigste
